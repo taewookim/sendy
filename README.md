@@ -38,7 +38,7 @@ $ docker run -d \
 ### `SENDY_PROTOCOL` (Optional)  
 HTTP protocol used in Sendy APP_PATH (`http` or `https`). Default: `http` 
 ### `SENDY_FQDN` (required)
-The fully qualified domain name of your Sendy installation.  This must match the FQDN associated with your license.  You can [purchase a license here](https://sendy.co/?ref=Hcurv).   
+The fully qualified domain name of your Sendy installation.  This must match the FQDN associated with your license. 
 ### `MYSQL_HOST` (required) 
 The MySQL server hosting your Sendy database.  
 ### `MYSQL_DATABASE` (optional)
