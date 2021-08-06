@@ -7,7 +7,6 @@ This is the unofficial Sendy docker repository.
 
 * Where to get help: [the Sendy Troubleshooting & Support Guide](https://sendy.co/troubleshooting), [the Sendy Community Forums](https://sendy.co/forum)
 
-* License Required: [Purchasing details](https://sendy.co/?ref=Hcurv)
 
 
 # Quick reference (cont.)
