@@ -45,18 +45,4 @@ services:
     secrets:
       - db_password
     ports:
-      - 8080:80
-
-  # Load Balancer: HAProxy
-  load-balancer:
-    hostname: lb_sendy
-    container_name: lb_sendy
-    image: lb_sendy
-    build:
-      context: .
-      dockerfile: haproxy/Dockerfile
-    env_file:
-      - sendy.env
-    ports:
-      - 80:80
-      - 443:443
+      - 4000:80
